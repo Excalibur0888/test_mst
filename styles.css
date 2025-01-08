@@ -233,10 +233,11 @@ h1 {
     margin: 5%;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    max-height: 600px;
 }
 
 .form-container {
-    padding: 4.5rem;
+    padding: 4rem;
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
@@ -245,9 +246,9 @@ h1 {
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 3.2rem;
+    font-size: 3rem;
     line-height: 1.1;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
     font-weight: 400;
     color: #38535d;
 }
@@ -255,14 +256,14 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
     width: 100%;
 }
 
 input[type="text"],
 input[type="email"] {
     width: 100%;
-    padding: 1rem;
+    padding: 0.8rem;
     border: 1px solid #E5E5E5;
     border-radius: 0;
     font-size: 1rem;
@@ -286,7 +287,7 @@ input[type="email"]:focus {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
 }
 
 .checkbox-container input[type="checkbox"] {
@@ -305,8 +306,8 @@ input[type="email"]:focus {
 
 .submit-btn {
     width: 100%;
-    padding: 1rem;
-    background-color: #1A1A1A;
+    padding: 1.2rem;
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     border: none;
     border-radius: 0;
@@ -320,6 +321,10 @@ input[type="email"]:focus {
 .submit-btn:hover {
     background-color: #333;
     transform: translateY(-2px);
+}
+
+.form-image {
+    height: 600px;
 }
 
 .form-image img {
